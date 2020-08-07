@@ -157,7 +157,7 @@
             this.showMsg = 'deleted';
 
             
-            this.$router.go('/customer-list');
+            this.getCustomers();
           }
         }).catch(error => {
           if (error.response.status === 401) {
