@@ -26,6 +26,12 @@ export default new Router({
       name: 'CustomerList',
       component: CustomerList
     },
+    {
+      path: '/customer-list/deleted',
+      name: 'CustomerListed',
+      component: CustomerList
+    },
+    
      {
       path: '/customer-list/:msg',
       name: 'CustomerUpdatedList',

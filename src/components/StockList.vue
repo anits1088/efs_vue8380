@@ -154,7 +154,7 @@
           if (response.status === 204) {
             alert("Stock deleted");
             this.showMsg = 'deleted';
-            this.$router.go('/stock-list');
+            this.getStocks();
             
           }
         }).catch(error => {

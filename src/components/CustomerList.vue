@@ -155,6 +155,8 @@
 
             alert("Customer deleted");
             this.showMsg = 'deleted';
+
+            
             this.$router.go('/customer-list');
           }
         }).catch(error => {
